@@ -102,38 +102,47 @@ secondary_button_url = "events"
 # secondary_button = "Not Convinced"
 # secondary_button_url = "portfolio"
 
-[params.footer]
-params.footer.qr_print = false
+[params]
+qr_print = false
+
 # Footer Contact Info
-[params.footer.contactInfo]
-title = "Contact Info"
-address = "IIT Hyderabad, Kandi, Sangareddy, Telangana, India"
-phone = "+91 1234567890"
-email = "robotix@iith.ac.in"
+[params.footer]
+  title = "Contact Info"
+  address = "IIT Hyderabad, Kandi, Sangareddy, Telangana, India"
+  phone = "+91 1234567890"
+  email = "robotix@iith.ac.in"
+
 # Footer Sitemap
-[params.footer.sitemap]
-title = "Sitemap"
-[[params.footer.sitemap.link]]
-name = "About"
-url = "about"
-[[params.footer.sitemap.link]]
-name = "Blogs"
-url = "blogs"
-[[params.footer.sitemap.link]]
-name = "Projects"
-url = "portfolio"
-[[params.footer.sitemap.link]]
-name = "Events"
-url = "events"
-[[params.footer.sitemap.link]]
-name = "Team"
-url = "team"
-[[params.footer.sitemap.link]]
-name = "Resources"
-url = "resources"
-[[params.footer.sitemap.link]]
-name = "Contact"
-url = "contact"
+[sitemap]
+  title = "Sitemap"
+
+  [[sitemap.link]]
+  name = "About"
+  url = "about"
+  
+  [[sitemap.link]]
+  name = "Blogs"
+  url = "blogs"
+  
+  [[sitemap.link]]
+  name = "Projects"
+  url = "portfolio"
+  
+  [[sitemap.link]]
+  name = "Events"
+  url = "events"
+  
+  [[sitemap.link]]
+  name = "Team"
+  url = "team"
+  
+  [[sitemap.link]]
+  name = "Resources"
+  url = "resources"
+  
+  [[sitemap.link]]
+  name = "Contact"
+  url = "contact"
 
 # Footer Social Media
 [params.footer.social]
