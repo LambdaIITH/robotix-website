@@ -8,29 +8,34 @@ summarylength = 25
 [menu]
 # Navbar Menus
 [[menu.nav]]
-name = "Home"
-url = ""
-weight = 1
+  name = "Home"
+  url = ""
+  weight = 1
+
 [[menu.nav]]
-name = "About"
-url = "about"
-weight = 2
+  name = "About"
+  url = "about"
+  weight = 2
+
 [[menu.nav]]
-name = "Projects"
-url = "portfolio"
-weight = 3
+  name = "Projects"
+  url = "portfolio"
+  weight = 3
+
 [[menu.nav]]
-name = "Blogs"
-url = "blog"
-weight = 4
+  name = "Blogs"
+  url = "blog"
+  weight = 4
+
 [[menu.nav]]
-name = "Events"
-url = "events"
-weight = 5
+  name = "Events"
+  url = "events"
+  weight = 5
+
 [[menu.nav]]
-name = "Resources"
-url = "https://docs.google.com/document/d/1sULk6FGBYPKWGM-C88B9Yos2nbrvWy9N5Z20Fu5MC1c/edit?tab=t.0"
-weight = 6
+  name = "Resources"
+  url = "https://docs.google.com/document/d/1sULk6FGBYPKWGM-C88B9Yos2nbrvWy9N5Z20Fu5MC1c/edit?tab=t.0"
+  weight = 6
 
 # Site Params
 [params]
@@ -38,127 +43,96 @@ logo = "images/logo.png"
 logo_footer = "images/logo-footer.png"
 favicon_icon = "images/favicon.ico"
 favicon_shortcut_icon = "images/favicon.png"
-custom_stylesheets = []                      # [ "scss/my_1.scss", "scss/my_2.scss" ]
+custom_stylesheets = [] # e.g., ["scss/my_1.scss", "scss/my_2.scss"]
 dateFormat = "26 FEB 1994"
+
 # Meta data
 description = "Roxo Hugo themes | Design Agency Template by StaticMania"
 author = "StaticMania"
-# Google Analitycs
+
+# Google Analytics
 googleAnalitycsID = "Your ID"
-# We're using formspree.io for form handling, paste your formspree url below
+
+# Form Handling (using formspree.io)
 fabform = "https://fabform.io/f/USAg2Jl"
-
-# Contact Form
-# [params.contactForm]
-# placeholder_first_name = "First Name"
-# placeholder_last_name = "Last Name"
-# placeholder_email = "Email"
-# placeholder_project_type = "Project Type"
-# placeholder_about_the_project = "About the Project"
-# send_message = "Send Message"
-
-# [[params.contactForm.projectType]]
-# value = "gd"
-# title = "Graphics Design"
-# [[params.contactForm.projectType]]
-# value = "wd"
-# title = "Web Design"
-
-# Navbar Action Button
-# [params.navAction]
-# status = true
-# name = "Get in touch"
-# url = "contact"
-
 
 # Banner Section
 [params.banner]
 enable = true
 background_image = "images/backgrounds/home-background.png"
 heading = "Striving to achieve perfection in the field of Robotics."
-# tagline = "BUILDING THE FUTURE, ONE ROBOT AT A TIME"
 primary_button = "More About Us"
 primary_button_url = "about"
 secondary_button = "Recent Events"
 secondary_button_url = "events"
 
-# [params.blog]
-# read_more = "read more"
-
-# [params.portfolio]
-# enable = true
-# title = "OUR RECENT WORKS"
-# subtitle = "Crafting experiences and seeking to make the complex clear & beautiful."
-# view_project = "view project"
-# more_works = "MORE WORKS"
-# scroll_down = "scroll down"
-
-# [params.call_to_action]
-# enable = true
-# background_image = "images/backgrounds/cta-background.jpg"
-# title = "LET’S WORK TOGETHER"
-# primary_button = "Submit Query"
-# primary_button_url = "contact"
-# secondary_button = "Not Convinced"
-# secondary_button_url = "portfolio"
-
-[params]
+# QR Print
 qr_print = false
 
-# Footer Contact Info
+# Footer
 [params.footer]
-  title = "Contact Info"
-  address = "IIT Hyderabad, Kandi, Sangareddy, Telangana, India"
-  phone = "+91 1234567890"
-  email = "robotix@iith.ac.in"
+title = "Contact Info"
+address = "IIT Hyderabad, Kandi, Sangareddy, Telangana, India"
+phone = "+91 1234567890"
+email = "robotix@iith.ac.in"
 
 # Footer Sitemap
 [sitemap]
-  title = "Sitemap"
+title = "Sitemap"
 
-  [[sitemap.link]]
+[[sitemap.link]]
   name = "About"
   url = "about"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Blogs"
   url = "blogs"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Projects"
   url = "portfolio"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Events"
   url = "events"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Team"
   url = "team"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Resources"
   url = "resources"
-  
-  [[sitemap.link]]
+
+[[sitemap.link]]
   name = "Contact"
   url = "contact"
 
 # Footer Social Media
 [params.footer.social]
 title = "Social Media"
+
 [[params.footer.social.link]]
-name = "LinkedIn"
-url = "https://www.linkedin.com/company/robotix-iith/"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/company/robotix-iith/"
+
 [[params.footer.social.link]]
-name = "Facebook"
-url = "https://www.facebook.com/RoboticsClubIITH/"
+  name = "Facebook"
+  url = "https://www.facebook.com/RoboticsClubIITH/"
+
 [[params.footer.social.link]]
-name = "Instagram"
-url = "https://www.instagram.com/robotix.iith?igshid=YmMyMTA2M2Y%3D"
+  name = "Instagram"
+  url = "https://www.instagram.com/robotix.iith?igshid=YmMyMTA2M2Y%3D"
+
 # Footer Service
 [params.footer.service]
 title = "We help brands:"
-description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+description = """
+develop design solutions<br>
+produce valuable cultural content<br>
+create fresh brand experience
+"""
+
+# Back to Top
 [params.footer.back_to_top]
 description = "I want to <br> visit again"
