@@ -121,22 +121,13 @@ name = "About"
 url = "about"
 [[params.footer.sitemap.link]]
 name = "Blogs"
-url = "blogs"
+url = "blog"
 [[params.footer.sitemap.link]]
 name = "Projects"
 url = "portfolio"
 [[params.footer.sitemap.link]]
 name = "Events"
 url = "events"
-[[params.footer.sitemap.link]]
-name = "Team"
-url = "team"
-[[params.footer.sitemap.link]]
-name = "Resources"
-url = "resources"
-[[params.footer.sitemap.link]]
-name = "Contact"
-url = "contact"
 
 # Footer Social Media
 [params.footer.social]
